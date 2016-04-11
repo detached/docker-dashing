@@ -7,7 +7,7 @@ Use this image as base for your dashing image.
 
 Create a Dockerfile in the root directory of your dashing project containing one simple line:
 
-    FROM detached/dashing
+    FROM siweis/dashing
 
 Thats it!
 

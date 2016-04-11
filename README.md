@@ -3,11 +3,21 @@ Ship your dashing as docker image!
 
 # Usage
 
-This repository is meant as template to provide you everything to dockerize your dashing project.
+Use this image as base for your dashing image.
 
-1. clone this repository
-2. place your dashing files to the `dashboard` folder or create a new `dashing new dashboard`
-3. run `docker build -t mydashing .`
+Create a Dockerfile in the root directory of your dashing project containing one simple line:
+
+    FROM detached/dashing
+
+Thats it!
+
+Two `ON BUILD` hooks will add all your files to the image and execute `bundle` on your Gemfile.
+
+# Build
+
+Run `docker build -t mydashing .` in your project folder.
+
+# Run
 
 To start your application run
 

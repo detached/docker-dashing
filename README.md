@@ -1,5 +1,7 @@
 # docker-dashing
-Ship your dashing as docker image
+Ship your dashing as docker image!
+
+# Usage
 
 This repository is meant as template to provide you everything to dockerize your dashing project.
 
@@ -7,7 +9,7 @@ This repository is meant as template to provide you everything to dockerize your
 2. place your dashing files to the `dashboard` folder or create a new `dashing new dashboard`
 3. run `docker build -t mydashing .`
 
-To startup your application run
+To start your application run
 
     docker run -p 80:8080 mydashing
 

@@ -1,3 +1,8 @@
+[![Docker Automated buil](https://img.shields.io/docker/automated/siweis/dashing.svg?maxAge=2592000)]()
+[![](https://images.microbadger.com/badges/image/siweis/dashing.svg)](http://microbadger.com/images/siweis/dashing)
+[![Docker Stars](https://img.shields.io/docker/stars/siweis/dashing.svg?maxAge=2592000)]()
+[![Docker Pulls](https://img.shields.io/docker/pulls/siweis/dashing.svg?maxAge=2592000)]()
+
 # docker-dashing
 
 Ship your dashing as docker image!

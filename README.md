@@ -5,9 +5,9 @@
 
 # docker-dashing
 
-Ship your dashing as docker image!
+Ship your [dashing](http://dashing.io/) as docker image!
 
-The dockerfile uses the official ruby:alpine base image to be extremly small.
+The dockerfile uses the official [ruby:alpine](https://hub.docker.com/_/ruby/) base image to be extremly small.
 The dashing process will be executed as dashing user, not as root.
 
 Find this image on [hub.docker.com](https://hub.docker.com/r/siweis/dashing/).
